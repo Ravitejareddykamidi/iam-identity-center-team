@@ -15,8 +15,8 @@
 IDC_LOGIN_URL=https://easyfundraising.awsapps.com/start
 REGION=eu-west-1
 TEAM_ACCOUNT=182822471806
-ORG_MASTER_PROFILE=default
-TEAM_ACCOUNT_PROFILE=default
+ORG_MASTER_PROFILE=mgmt
+TEAM_ACCOUNT_PROFILE=dev
 TEAM_ADMIN_GROUP="team-devops"
 TEAM_AUDITOR_GROUP="team-devops"
 TAGS="project=iam-identity-center-team environment=prod"
@@ -24,5 +24,3 @@ CLOUDTRAIL_AUDIT_LOGS=arn:aws:cloudtrail:eu-west-1:182822471806:eventdatastore/1
 SECRET_NAME=TEAM-IDC-APP
 # Uncomment the next line only if you have a custom domain
 # UI_DOMAIN=portal.teamtest.online
-
-
