@@ -43,8 +43,8 @@ if [ -n "$amplifyCustomDomain" ]; then
 fi
 
 echo $amplifyDomain
-applicationStartURL="https://$cognitoHostedUIdomain/authorize?client_id=$cognitoClientWebClientID&response_type=code&scope=aws.cognito.signin.user.admin+email+openid+phone+profile&redirect_uri=https://$amplifyDomain/&idp_identifier=team"
-applicationACSURL="https://$cognitoHostedUIdomain/saml2/idpresponse"
-applicationSAMLAudience="urn:amazon:cognito:sp:$cognitoUserpoolId"
+applicationStartURL="https://easyfundraising.awsapps.com/start"
+applicationACSURL="https://eu-west-1.signin.aws.amazon.com/platform/saml/acs/1e743b1d-e7c1-4dec-b68d-1d1909c07319"
+applicationSAMLAudience="https://eu-west-1.signin.aws.amazon.com/platform/saml/d-93670a0c2b"
 
 printf "\n${green}applicationStartURL:${clear} %s\n${green}applicationACSURL:${clear} %s\n${green}applicationSAMLAudience:${clear} %s\n\n" "$applicationStartURL" "$applicationACSURL" "$applicationSAMLAudience"
