@@ -43,7 +43,7 @@ if [ -n "$amplifyCustomDomain" ]; then
 fi
 
 echo $amplifyDomain
-applicationStartURL="https://easyfundraising.awsapps.com/start"
+applicationStartURL="https://login.microsoftonline.com/29b63688-42b8-4ce7-8bf8-e2fb463b0e84/saml2"
 applicationACSURL="https://eu-west-1.signin.aws.amazon.com/platform/saml/acs/1e743b1d-e7c1-4dec-b68d-1d1909c07319"
 applicationSAMLAudience="https://eu-west-1.signin.aws.amazon.com/platform/saml/d-93670a0c2b"
 
