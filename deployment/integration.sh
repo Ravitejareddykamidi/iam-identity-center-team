@@ -43,8 +43,8 @@ if [ -n "$amplifyCustomDomain" ]; then
 fi
 
 echo $amplifyDomain
-applicationStartURL="https://login.microsoftonline.com/29b63688-42b8-4ce7-8bf8-e2fb463b0e84/saml2"
-applicationACSURL="https://eu-west-1.signin.aws.amazon.com/platform/saml/acs/1e743b1d-e7c1-4dec-b68d-1d1909c07319"
-applicationSAMLAudience="https://eu-west-1.signin.aws.amazon.com/platform/saml/d-93670a0c2b"
+applicationStartURL="https://portal.sso.eu-west-1.amazonaws.com/saml/assertion/NzYyODA2NzE5MDU3X2lucy1hOTJiMTVlNWIwNjg5MDky"
+applicationACSURL="https://portal.sso.eu-west-1.amazonaws.com/saml/assertion/NzYyODA2NzE5MDU3X2lucy1hOTJiMTVlNWIwNjg5MDky"
+applicationSAMLAudience="https://portal.sso.eu-west-1.amazonaws.com/saml/metadata/NzYyODA2NzE5MDU3X2lucy1hOTJiMTVlNWIwNjg5MDky"
 
 printf "\n${green}applicationStartURL:${clear} %s\n${green}applicationACSURL:${clear} %s\n${green}applicationSAMLAudience:${clear} %s\n\n" "$applicationStartURL" "$applicationACSURL" "$applicationSAMLAudience"
